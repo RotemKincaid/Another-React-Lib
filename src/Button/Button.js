@@ -13,13 +13,17 @@ import "./button.css";
 const Button = props => {
   let { buttonColor, text, size, styles, handleClick } = props;
   return (
-    <button
-      style={styles}
-      onClick={handleClick}
-      className={`${buttonColor} ${size} button`}
-    >
-      {text}
-    </button>
+    <div>  
+      <h2>Button Component</h2>
+      <button
+        style={styles}
+        onClick={handleClick}
+        className={`${buttonColor} ${size} button`}
+      >
+        {text}
+      </button>
+      <div className="space"/>
+    </div>
   );
 };
 

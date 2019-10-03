@@ -1,3 +1,7 @@
-.red-button{
-    background: red
+.red-button {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: red;
+    color: white;
 }

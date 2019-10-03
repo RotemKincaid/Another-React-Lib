@@ -7,6 +7,8 @@ function Profile(props){
 
     return(
         <section className={className && className || `${name}-profile`}>
+            
+            <h2>Profile Component</h2>
 
             <img src={image.location}></img>
 
@@ -20,6 +22,7 @@ function Profile(props){
             {socials && <div className = 'social-links'>{socials.map(social => {
                 return <a href={social.source}><SocialIcon name={social.name} size={social.size || 'md'}/></a>
             })}</div>}
+            <div className="space"/>
         </section>
     )
 }

@@ -8,11 +8,15 @@ const ProgressBar = ({
   fillColor,
   progress
 }) => (
-  <div style={containerStyle} className={`progress-bar ${containerClassName}`}>
-    <div
-      className="fill"
-      style={{ background: fillColor, width: `${progress}%` }}
-    />
+  <div>
+    <h2>Progress Bar Component</h2>
+    <div style={containerStyle} className={`progress-bar ${containerClassName}`}>
+      <div
+        className="fill"
+        style={{ background: fillColor, width: `${progress}%` }}
+      />
+    </div>
+    <div className="space"/>
   </div>
 );
 

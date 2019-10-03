@@ -11,10 +11,12 @@ const Searchbar = ({
 }) => {
   return (
     <div className="form-container searchbar">
+      <h2>Search Bar Component</h2>
       <form onSubmit={onSubmit}>
         <input type="text" value={value} onChange={onChange} {...rest} />
         <button type="submit">Search</button>
       </form>
+      <div className="space"/>
     </div>
   );
 };

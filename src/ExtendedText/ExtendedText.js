@@ -38,12 +38,14 @@ const ExtendedText = props => {
 
     return (
         <div className='text-container'>
+            <h2>Extended Text Component</h2>
             <span
                 style={styles}
             >
                 {displayText}
             </span>
             <a className='text-button' onClick={handleOnClick}>{ isTruncated ? 'Read more' : 'Read less' }</a>
+            <div className="space"/>
         </div>
     )
 }

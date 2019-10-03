@@ -1,0 +1,11 @@
+.form-style {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.form-style button {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(24, 205, 250);
+    border-radius: 5px;
+}

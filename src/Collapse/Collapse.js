@@ -19,6 +19,7 @@ class Collapse extends React.Component {
     const { headerStyle, bodyStyle, collapseHeader, collapseBody } = this.props;
     return (
       <div>
+        <h2>Collapse Component</h2>
         <div
           style={headerStyle}
           className="header"
@@ -31,6 +32,7 @@ class Collapse extends React.Component {
             {collapseBody}
           </div>
         ) : null}
+        <div className="space"/>
       </div>
     );
   }

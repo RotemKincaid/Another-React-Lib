@@ -44,7 +44,6 @@ export {
   Switch,
   TwitterShare,
   StickyButton,
-  Collapse,
   Avatar,
   SocialIcon,
   Notification,

@@ -13,7 +13,7 @@
 .lg {font-size: 30px}
 
 .sticky-button {
-    right: 0;
+    right: 20px;
     color: black;
     border-radius: 5px;
     padding: 10px;
@@ -24,6 +24,7 @@
     font-weight: 400;
     border: none;
     transition: all .4s;
+    
 }
 
 .sticky-button:hover {
@@ -31,4 +32,5 @@
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 1, 0.81);
     -moz-box-shadow: 0 0 5px rgba(0, 0, 1, 0.81);
     opacity: 0.9;
+    background-color: rgb(41, 196, 248);
 }

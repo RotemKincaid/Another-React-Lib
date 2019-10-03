@@ -16,7 +16,7 @@ const Checkbox = ({
     onItemClick = () => { }
 }) => {
     return (
-        <div className="container">
+        <div>
 
             <div className="checkbox-title">
                 <label ><b>{title} :</b></label>
@@ -30,11 +30,11 @@ const Checkbox = ({
                                 <input type="checkbox" id={value.id} name="checkbox" onClick={() => onItemClick(item.id)} className=".regular-checkbox" />
                                 <span class="checkmark"></span>
                             </label>
-
                         </div>
                     );
                 })}
             </form>
+            <div className="space"/>
         </div>
     );
 };

@@ -6,3 +6,26 @@ body {
 }
 
 /* reset default tags style */
+
+/* added some overall style to demo */
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container {
+    width: 60vw;
+    margin: 40px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.space {
+    height: 30px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}

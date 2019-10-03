@@ -5,13 +5,15 @@ import "./button.css";
 const FlatButton = props => {
   let { buttonColor, text, size, styles, handleClick } = props;
   return (
-    <button
-      style={styles}
-      onClick={handleClick}
-      className={`${buttonColor} ${size} flat-button`}
-    >
-      {text}
-    </button>
+    <div> 
+      <button
+        style={styles}
+        onClick={handleClick}
+        className={`${buttonColor} ${size} flat-button`}
+      >
+        {text}
+      </button>
+    </div>
   );
 };
 

@@ -12,7 +12,13 @@ import defaultAvatar from "./user.svg";
 const Avatar = props => {
   const { src, alt } = props;
 
-  return <img src={src} className="img-avatar" alt={alt} />;
+  return (
+  <div>
+  <h2>Avatar Component</h2>
+  <img src={src} className="img-avatar" alt={alt} />
+  <div className="space"/>
+  </div>
+  );
 };
 
 Avatar.defaultProps = {

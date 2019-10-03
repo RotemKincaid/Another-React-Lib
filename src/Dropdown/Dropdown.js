@@ -8,6 +8,7 @@ const Dropdown = ({
 }) => {
   return (
     <div className="dropdown">
+      <h2>Dropdown Component</h2>
       <button className="dropbtn">{btnText}</button>
       <div className="dropdown-menu">
         {menuItems.map((item, index) => {
@@ -18,6 +19,7 @@ const Dropdown = ({
           );
         })}
       </div>
+      <div className="space"/>
     </div>
   );
 };

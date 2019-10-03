@@ -4,9 +4,13 @@ import "./simpleredbutton.css";
 
 const SimpleRedButton = props => {
   return (
-    <button className="red-button" onClick={props.handleClick}>
-      {props.text}
-    </button>
+    <div>
+      <h2>Simple Red Button</h2>
+      <button className="red-button" onClick={props.handleClick}>
+        {props.text}
+      </button>
+      <div className="space"/>
+    </div>
   );
 };
 
